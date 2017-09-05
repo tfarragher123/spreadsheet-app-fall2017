@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Spreadsheet Application</title>
+    <meta charset = "utf-8">
+    <link href = "styles.css" rel = "stylesheet">
+  </head>
+  <body>
+    <h1>Spreadsheet Application</h1>
+    <form>
+      <table>
+        <tr>
+          <th>&nbsp;</th>
+          <th>A</th>
+          <th>B</th>
+          <th>C</th>
+          <th>D</th>
+          <th>E</th>
+          <th>F</th>
+          <th>G</th>
+        </tr>
+        <tr>
+          <th>1</th>
+          <td><input type = "text" id = "a1" class = "input-cell"></td>
+          <td><input type = "text" id = "b1" class = "input-cell"></td>
+          <td><input type = "text" id = "c1" class = "input-cell"></td>
+          <td><input type = "text" id = "d1" class = "input-cell"></td>
+          <td><input type = "text" id = "e1" class = "input-cell"></td>
+          <td><input type = "text" id = "f1" class = "input-cell"></td>
+          <td><input type = "text" id = "g1" class = "input-cell"></td>
+        </tr>
+        <tr>
+          <th>2</th>
+          <td><input type = "text" id = "a2" class = "input-cell"></td>
+          <td><input type = "text" id = "b2" class = "input-cell"></td>
+          <td><input type = "text" id = "c2" class = "input-cell"></td>
+          <td><input type = "text" id = "d2" class = "input-cell"></td>
+          <td><input type = "text" id = "e2" class = "input-cell"></td>
+          <td><input type = "text" id = "f2" class = "input-cell"></td>
+          <td><input type = "text" id = "g2" class = "input-cell"></td>
+        </tr>
+        <tr>
+          <th>3</th>
+          <td><input type = "text" id = "a3" class = "input-cell"></td>
+          <td><input type = "text" id = "b3" class = "input-cell"></td>
+          <td><input type = "text" id = "c3" class = "input-cell"></td>
+          <td><input type = "text" id = "d3" class = "input-cell"></td>
+          <td><input type = "text" id = "e3" class = "input-cell"></td>
+          <td><input type = "text" id = "f3" class = "input-cell"></td>
+          <td><input type = "text" id = "g3" class = "input-cell"></td>
+        </tr>
+        <tr>
+          <th>4</th>
+          <td><input type = "text" id = "a4" class = "input-cell"></td>
+          <td><input type = "text" id = "b4" class = "input-cell"></td>
+          <td><input type = "text" id = "c4" class = "input-cell"></td>
+          <td><input type = "text" id = "d4" class = "input-cell"></td>
+          <td><input type = "text" id = "e4" class = "input-cell"></td>
+          <td><input type = "text" id = "f4" class = "input-cell"></td>
+          <td><input type = "text" id = "g4" class = "input-cell"></td>
+        </tr>
+        <tr>
+          <th>5</th>
+          <td><input type = "text" id = "a5" class = "input-cell"></td>
+          <td><input type = "text" id = "b5" class = "input-cell"></td>
+          <td><input type = "text" id = "c5" class = "input-cell"></td>
+          <td><input type = "text" id = "d5" class = "input-cell"></td>
+          <td><input type = "text" id = "e5" class = "input-cell"></td>
+          <td><input type = "text" id = "f5" class = "input-cell"></td>
+          <td><input type = "text" id = "g5" class = "input-cell"></td>
+        </tr>
+        <tr>
+          <th>6</th>
+          <td><input type = "text" id = "a6" class = "input-cell"></td>
+          <td><input type = "text" id = "b6" class = "input-cell"></td>
+          <td><input type = "text" id = "c6" class = "input-cell"></td>
+          <td><input type = "text" id = "d6" class = "input-cell"></td>
+          <td><input type = "text" id = "e6" class = "input-cell"></td>
+          <td><input type = "text" id = "f6" class = "input-cell"></td>
+          <td><input type = "text" id = "g6" class = "input-cell"></td>
+        </tr>
+        <tr>
+          <th>7</th>
+          <td><input type = "text" id = "a7" class = "input-cell"></td>
+          <td><input type = "text" id = "b7" class = "input-cell"></td>
+          <td><input type = "text" id = "c7" class = "input-cell"></td>
+          <td><input type = "text" id = "d7" class = "input-cell"></td>
+          <td><input type = "text" id = "e7" class = "input-cell"></td>
+          <td><input type = "text" id = "f7" class = "input-cell"></td>
+          <td><input type = "text" id = "g7" class = "input-cell"></td>
+        </tr>
+      </table>
+      <div id = "context-menu" class = "hidden">
+        <ul>
+          <li>Format >
+            <ul>
+              <li data-type = "number" class = "format">Number</li>
+              <li data-type = "currency" class = "format">Currency</li>
+              <li data-type = "time-ms" class = "format">Time (given in ms)</li>
+              <li data-type = "time-days" class = "format">Time (given in days)</li>
+              <li data-type = "date" class = "format">Date (given in ms)</li>
+            </ul>
+          </li>
+          <li>Placeholder</li>
+        </ul>
+      </div>
+    </form>
+    <script src = "app.js"></script>
+  </body>
+</html>

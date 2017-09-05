@@ -1,0 +1,89 @@
+body {
+  font-family: sans-serif;
+}
+
+table {
+  border-spacing: 0px;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+th {
+  background-color: #ccc;
+  border: 1px solid black;
+}
+
+td {
+  padding: 0;
+  border-left: 1px solid #aaa;
+  border-top: 1px solid #aaa;
+}
+
+.input-cell {
+  /*border: 1px solid grey;*/
+  border: 0;
+  height: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.input-cell:hover, .input-cell:active {
+  /*border-color: orange;*/
+}
+
+input:focus {
+  outline:none;
+}
+
+h1:active {
+  color:red;
+}
+
+.selected {
+  border-color: red;
+  border: 1px solid red;
+}
+
+#context-menu {
+  border: 1px solid gray;
+  width: 200px;
+  background-color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+.context-menu-display {
+  position: absolute;
+}
+
+#context-menu ul {
+  list-style-type: none;
+  padding-left: 2px;
+  margin: 0px;
+}
+
+#context-menu ul li {
+  border-bottom: 1px solid gray;
+  padding: 3px;
+  background-color: #ccc;
+}
+
+#context-menu ul li ul {
+  display: none;
+}
+
+#context-menu ul li:hover ul {
+  display: block;
+  /*position: relative;*/
+  position: absolute;
+  left: 200px;
+  top: 0px;
+  border: 1px solid #ccc;
+}
+
+#context-menu ul li:hover {
+  border-bottom: 1px solid gray;
+  background-color: #88ffff;
+}
