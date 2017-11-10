@@ -151,10 +151,10 @@ let formatCellValue = (format, value) => {
     return "$" + value;
   } 
   else if(format === "time-ms") {
-    return getTimeStrFromDays(value || 0);
+    return getTimeStrFromMs(value || 0);
   }
   else if(format === "time-days") {
-    return getTimeStrFromMs(value || 0);
+    return getTimeStrFromDays(value || 0);
   }
   else if(format === "date") {
     return new Date(parseInt(value || 0));
